@@ -4,8 +4,8 @@ import java.util.List;
 public class asal {
 
 
-//asalcarpan fonksiyonu girilen sayıyı sırasıyla doğal sayılara bölüp eğer sayı onu tam bölüyorsa
-//onu listenin içine atıp sayıyı o asal çarpana bölüp bu işleme devam edşyor ve onun asal çarpanlarını veriyor.
+//asalcarpan fonksiyonu girilen sayıyı sırasıyla sayının kendisine kadar olan doğal sayılara bölüp eğer sayı onu tam bölüyorsa
+//onu listenin içine atıp sayıyı o asal çarpana bölüp bu işleme devam ediyor ve onun asal çarpanlarını veriyor.
 
         public static List<Integer> asalcarpan(int number) {
             int n = number;
@@ -20,15 +20,15 @@ public class asal {
         }
 
         public static void main(String[] args) {
-            System.out.println("Primefactors of 155");
+            System.out.println("155'in asal çarpanları :");
             for (Integer integer : asalcarpan(155)) {
                 System.out.println(integer);
             }
-            System.out.println("Primefactors of 6");
+            System.out.println("6'nın asal çarpanları :");
             for (Integer integer : asalcarpan(6)) {
                 System.out.println(integer);
             }
-            System.out.println("Primefactors of 32");
+            System.out.println("32'nin asal çarpanları :");
             for (Integer integer : asalcarpan(32)) {
                 System.out.println(integer);
             }
